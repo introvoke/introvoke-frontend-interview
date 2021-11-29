@@ -1,0 +1,21 @@
+{
+  "name": "introvoke-frontend-interview",
+  "author": "Introvoke",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Take home assignment for frontend developers",
+  "scripts": {
+    "start": "lerna run start --parallel",
+    "test": "lerna run test",
+    "lint": "lerna run lint",
+    "install": "lerna bootstrap"
+  },
+  "engines": {
+    "node": ">=14.17",
+    "npm": ">=6.14"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {}
+}
