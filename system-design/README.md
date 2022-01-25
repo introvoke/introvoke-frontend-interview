@@ -4,12 +4,6 @@
 
 Congrats in getting to the next step in the technical evaluation. The goal of this part is to exercise of system design skills.
 
-You can take on one or both the exercises list below:
-
-- Design a more performant chat/server design which will allow the users to exchange message in near real time. (Hint: Web sockets)
-
-AND/OR
-
 - Assuming that chat messages are going to persisted in a data store. As a design exercise, build a robust data pipeline which is able to:
   - perform aggregation of number of chat messages by user and by date.
   - perform sentiment analysis of the chat messages to give a score of +1 on positive, -1 on negative and 0 on unknown/unable to score.
