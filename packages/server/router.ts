@@ -20,7 +20,7 @@ export const router = Router();
  * Gets all messages
  */
 router.get("/messages", (req, res) => {
-  res.status(200).json(getAllMessages());
+  res.status(200).json({ messages: getAllMessages() });
 });
 
 /**

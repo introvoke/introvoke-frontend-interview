@@ -34,6 +34,6 @@ export const createValidatePayload =
       return next();
     }
     res.status(400).json({
-      errors: validator.errors?.map(({ message }) => message),
+      error: validator.errors?.map(({ message }) => message).join(", "),
     });
   };
